@@ -1,4 +1,4 @@
-create or replace table app_payments.app_payments_analyticstemp.temp_leading_indicator_activated_2019 as 
+create or replace table pos_analytics_nb.ashk.temp_leading_indicator_activated_2019 as 
 
 with activated_2019 as (
 select user_token as merchant_token
